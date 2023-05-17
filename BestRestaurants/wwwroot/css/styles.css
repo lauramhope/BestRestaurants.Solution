@@ -1,4 +1,4 @@
-div#footer {
+/* div#footer {
 	position:fixed;
 	bottom:0px;
 	left:0px;
@@ -6,4 +6,23 @@ div#footer {
 	color:#CCC;
 	background:#333;
 	padding:8px;
+} */
+
+body {
+	background-image: url("./food.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+main {
+  padding: 20px 0;
+  flex: 1;
 }
