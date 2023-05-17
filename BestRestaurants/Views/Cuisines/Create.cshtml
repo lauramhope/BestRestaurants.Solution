@@ -7,8 +7,8 @@
 <h4>Add a new cuisine </h4>
 @using (Html.BeginForm())
 {
-  @Html.LabelFor(model => model.Type)
-  @Html.TextBoxFor(model => model.Type)
-  <input type="submit" value="Add new cuisine type" />
+  @Html.LabelFor(model => model.Category)
+  @Html.TextBoxFor(model => model.Category)
+  <input type="submit" value="Add new cuisine category" />
 }
-<p>@Html.ActionLink("Show all cuisine types", "Index")</p>
+<p>@Html.ActionLink("Show all cuisine categories", "Index")</p>
